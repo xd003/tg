@@ -17,8 +17,8 @@ from telegram_upload.video import get_video_thumb, video_metadata
 mimetypes.init()
 
 
-MAX_FILE_SIZE = 2097152000
-CAPTION_MAX_LENGTH = 1024
+MAX_FILE_SIZE = 4194304000
+CAPTION_MAX_LENGTH = 2048
 
 
 def is_valid_file(file, error_logger=None):
